@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常緑ラボ | Evergreen Lab — 自然農 4年目の実験場</title>
+    <meta name="description" content="耕さず、肥料も農薬も使わない。自然の摂理に寄り添う4年目の実験場「常緑ラボ」の作付マップと活動記録。">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Noto+Serif+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <a href="#" class="logo">常緑ラボ<span>Evergreen Lab</span></a>
+        <nav class="nav-links">
+            <a href="#map">Map</a>
+            <a href="#philosophy">Philosophy</a>
+            <a href="#protocol">Protocol</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="top">
+        <div class="hero-inner">
+            <p class="hero-label js-reveal">Natural Farming — Year 4</p>
+            <h1 class="hero-heading">
+                <span class="js-reveal d1">耕さず、</span>
+                <span class="js-reveal d2">肥料も農薬も</span>
+                <span class="js-reveal d3">使わない。</span>
+            </h1>
+            <p class="hero-sub js-reveal d4">自然の摂理に寄り添う実験場</p>
+        </div>
+        <a href="#map" class="scroll-cue" aria-label="マップへ">
+            <span class="scroll-text">scroll</span>
+            <span class="scroll-line"></span>
+        </a>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section" id="map">
+        <div class="container">
+            <div class="section-head js-fade">
+                <span class="section-num">01</span>
+                <h2 class="section-title">Field Map 2026</h2>
+            </div>
+            <p class="section-desc js-fade">Obsidianで管理している作付けマップをそのままWebに同期しています。<br>ドラッグで移動、ホイールまたはピンチでズームできます。</p>
+        </div>
+        <div class="map-wrapper js-fade" id="map-container">
+            <div class="map-controls">
+                <button class="map-btn" id="zoom-in" aria-label="拡大">+</button>
+                <button class="map-btn" id="zoom-out" aria-label="縮小">−</button>
+                <button class="map-btn" id="zoom-reset" aria-label="リセット">⟲</button>
+            </div>
+            <div class="map-canvas" id="map-canvas">
+                <!-- map_fragment.html content injected here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy -->
+    <section class="section section--alt" id="philosophy">
+        <div class="container">
+            <div class="section-head js-fade">
+                <span class="section-num">02</span>
+                <h2 class="section-title">Philosophy</h2>
+            </div>
+            <div class="philosophy-grid">
+                <div class="phil-card js-fade">
+                    <div class="phil-icon">🌱</div>
+                    <h3>不耕起</h3>
+                    <p>土を耕さない。草の根が土を支える「柱」となり、微生物が呼吸する団粒構造を守る。</p>
+                </div>
+                <div class="phil-card js-fade">
+                    <div class="phil-icon">🦠</div>
+                    <h3>無肥料</h3>
+                    <p>外部から肥料を持ち込まない。微生物との共生ネットワークが、植物に必要な栄養を届ける。</p>
+                </div>
+                <div class="phil-card js-fade">
+                    <div class="phil-icon">🐛</div>
+                    <h3>虫は指標</h3>
+                    <p>虫は敵ではなくメッセンジャー。過剰な窒素を分配する、自然界の調整システム。</p>
+                </div>
+                <div class="phil-card js-fade">
+                    <div class="phil-icon">🌾</div>
+                    <h3>固定種</h3>
+                    <p>自家採種可能な固定種のみを使用。種を繋ぐことで、土地と季節に最適化された命を育む。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Protocol -->
+    <section class="section" id="protocol">
+        <div class="container">
+            <div class="section-head js-fade">
+                <span class="section-num">03</span>
+                <h2 class="section-title">Protocol</h2>
+            </div>
+            <div class="protocol-list">
+                <div class="proto-item js-fade">
+                    <span class="proto-num">01</span>
+                    <div class="proto-body">
+                        <h3>ザクザク法</h3>
+                        <p>スコップを垂直に差し込み、土の層を壊さず空気の道を作る。不耕起で10年かかる土壌改善を3年に短縮する戦略的介入。</p>
+                    </div>
+                </div>
+                <div class="proto-item js-fade">
+                    <span class="proto-num">02</span>
+                    <div class="proto-body">
+                        <h3>浸種と灰もみ</h3>
+                        <p>種を水に浸して発芽スイッチを揃え、草木灰をまぶして保温・殺菌。均一な発芽を実現する伝統技術。</p>
+                    </div>
+                </div>
+                <div class="proto-item js-fade">
+                    <span class="proto-num">03</span>
+                    <div class="proto-body">
+                        <h3>10年ローテーション</h3>
+                        <p>ナス科→アブラナ科→ウリ科→マメ科。前作の残肥を次作が活用する「養分リレー」で無肥料を実現。</p>
+                    </div>
+                </div>
+                <div class="proto-item js-fade">
+                    <span class="proto-num">04</span>
+                    <div class="proto-body">
+                        <h3>草マルチ</h3>
+                        <p>畑を裸にしない。刈り草で土を覆い、保湿・微生物の餌・土壌生物の住処を同時に確保する。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <span class="footer-logo">常緑ラボ</span>
+            <span class="footer-copy">&copy; 2026 Evergreen Lab by daishi. Powered by Obsidian &amp; GitHub Pages.</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
