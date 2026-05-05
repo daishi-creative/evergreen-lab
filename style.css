@@ -199,6 +199,18 @@ button { background: none; border: none; cursor: pointer; font: inherit; }
     line-height: 1.8;
     margin-bottom: 2rem;
 }
+.map-last-updated {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--accent);
+    background: rgba(90, 114, 71, 0.08);
+    border: 1px solid rgba(90, 114, 71, 0.2);
+    border-radius: 100px;
+    padding: 6px 16px;
+    margin-bottom: 1.5rem;
+}
 
 /* --- Map --- */
 .map-wrapper {
